@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    height: 105px;
+    color: #4CAF50;
+    padding: 18px;
+    font-size: 20px;
+    position: fixed; /* Đặt phần header là cố định */
+    width: 100%; /* Chiều rộng của phần header là 100% của trang */
+    background-color: #d5d9dd;
+}
+
+.shop2 {
+    float: left;
+    font-size: 20px;
+    font-family: Anton;
+}
+
+.shop {
+    font-family: Rowdies;
+    margin-left: 330px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+}
+
+.shop3 {
+    color: #e9a81c;
+    font-family: Dela Gothic One;
+    margin-left: 500px;
+}
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #e9a81c;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+}   
+
+.add-to-cart-button:hover {
+    background-color: #ff0000;
+}
+
+.cart {
+    float: right;
+}
+
+.search-box {
+    margin-left: 900px; 
+}
+
+.search-box input[type="text"],.search-box button {
+    padding: 8px 12px;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-box input[type="text"] {
+    width: 160px;
+}
+
+.search-box button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #45a049;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #141414;
+    text-decoration: none;
+}
+
+main {
+    background-image: url('https://i.pinimg.com/originals/eb/6d/32/eb6d32be4cb74255920a1d1438e01d91.jpg');
+    background-size: cover;
+    background-position: center; /* Căn giữa ảnh nền */ 
+    padding: 20px;
+    padding-top: 130px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #ff0505;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.featured-products {
+    margin-bottom: 40px;
+}
+
+.noidung {
+    width: 55%;
+    display: flex;
+    flex-wrap: nowrap; /* Không cho phép các sản phẩm xuống dòng */
+}
+
+.sanpham {
+    background-color: #d5d9dd;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+footer {
+    color: #d5d9dd;
+    text-align: center;
+    padding: 1px;
+    background-color: #4CAF50;
+}
+
+.footer-content {
+    display: flex;
+    font-size: 15px;
+}
+
+.address,
+.contact-info,
+.return-policy {
+    flex: 1; /* Phần tử sẽ co giãn để điền vào không gian trống */
+}
+
+.copyright {
+    text-align: center; /* Căn giữa nội dung */
+    margin-top: 1px; /* Khoảng cách giữa phần footer và bản quyền */
+    padding: 1px;
+    font-size: 12px;
+}
