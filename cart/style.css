@@ -1,0 +1,118 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.navbar-header {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-shop2e {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+.search1 {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.search2 {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: #343a40;
+    cursor: pointer;
+}
+
+/* Main Content */
+.container-body {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.hinhsanpham {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.delete-sanpham {
+    color: red;
+}
+
+.delete-sanpham:hover {
+    color: darkred;
+}
+
+.continue, .pay {
+    display: inline-block;
+    border: 25px solid white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.continue:hover, .pay:hover {
+    background-color:#ffc107;
+}
+
+/* Footer */
+.footershop {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container-footer {
+    text-align: center;
+}
