@@ -1,4 +1,3 @@
-/* Reset CSS */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -6,16 +5,34 @@ body, h1, h2, h3, p, ul, li {
 }
 body {
     background-image: url('https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-dam-may-de-thuong-003.jpg');
-    background-size: cover; /* Căn chỉnh kích thước hình ảnh để phù hợp với kích thước của phần tử */
-    background-repeat: no-repeat; /* Ngăn chặn hình ảnh lặp lại */
-    background-position: center; /* Căn chỉnh hình ảnh vào giữa */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+.HEADER{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(39, 230, 49);
+    text-shadow: 0 0 10px rgb(0, 199, 13),
+                 0 0 18px rgb(12, 189, 50),
+                 0 0 25px rgb(0, 255, 34);
+    height: 200px;
+    position: relative;
+    left: 210px;
+    font-size: 60px;
+    display:flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-radius: 50%;
+    width:780px;
+}
 
 
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -32,36 +49,31 @@ body {
     margin-bottom: 30px;
 }
 
-.banner-img {
-    width: 100%;
-    height: auto;
-}
+
 
 .navbar-info input[type="text"] {
-    padding: 8px; /* Kích thước padding của input */
-    border: none; /* Loại bỏ viền của input */
-    border-radius: 4px; /* Bo tròn góc của input */
-    display: flex;
+    padding: 8px; 
+    border-radius: 30px;
 }
-
-/* Kiểu cho button trong thanh tìm kiếm */
-.navbar-info button[type="submit"] {
-    background-color: #ee3f3f; /* Màu nền của nút */
-    color: #000000; /* Màu chữ của nút */
-    border: none; /* Loại bỏ viền của nút */
-    border-radius: 4px; /* Bo tròn góc của nút */
-    padding: 8px 15px; /* Kích thước padding của nút */
-    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút */
-    transition: background-color 0.3s ease; /* Hiệu ứng khi di chuột qua */
+.texthover li{
+    display: inline-block;
+    list-style: none;
 }
-
-/* Hiệu ứng khi di chuột qua nút tìm kiếm */
-.navbar-info button[type="submit"]:hover {
-    background-color: #b36800; /* Màu nền của nút khi di chuột qua */
+.texthover>li>a{
+    font-family:font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+.texthover li:hover a{
+    color: rgb(31, 28, 31);
+    box-shadow: 3px 2px 2px rgba(16, 16, 16, 0.747);
+    background-color: #d28aecd3;    
+    border-radius: 30px;   
+    transition: all 0.7s ease 0.1s;      
 }
 .navbar-form {
-    float: left; /* Lệch thanh tìm kiếm sang trái */
-    margin-right: auto; /* Đẩy thanh tìm kiếm sang trái */
+    float: left;
+    margin-right: auto;
+    border-style: inset;
+    border-radius: 30px;
 }
 
 .section-title {
@@ -70,12 +82,12 @@ body {
 }
 
 .products {
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .product {
-    width: calc(33.33% - 30px);
+    width: 230px;
     margin: 15px;
     padding: 20px;
     background-color: #fff;
@@ -98,20 +110,11 @@ body {
     margin-bottom: 10px;
 }
 
-.product button {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.product button:hover {
-    background-color: #45a049;
-}
+
+
+
+
 /* Reset CSS */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -120,9 +123,9 @@ body, h1, h2, h3, p, ul, li {
 }
 body {
     background-image: url('https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-dam-may-de-thuong-003.jpg');
-    background-size: cover; /* Căn chỉnh kích thước hình ảnh để phù hợp với kích thước của phần tử */
-    background-repeat: no-repeat; /* Ngăn chặn hình ảnh lặp lại */
-    background-position: center; /* Căn chỉnh hình ảnh vào giữa */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -145,92 +148,46 @@ body {
 .row {
     margin-bottom: 30px;
 }
-
-.banner-img {
-    width: 100%;
-    height: auto;
-}
-
 .navbar-info {
-    background-color: #842aa4;
-    color: #fff;
+    background: #944cc875;
     text-align: center;
     padding: 10px;
-    overflow: hidden;
+    border-style: outset;
+    border-radius: 30px;
 }
-
 .navbar-info a {
     color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
+text-decoration: none;
+    padding: 10px 15px;
     margin: 0 5px;
     display: inline-block;
 }
-
-.navbar-info a:hover {
-    background-color: #a90be3;
-}
-
-.section-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.products {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.product {
-    width: calc(33.33% - 30px);
-    margin: 15px;
+footer {
+    color: #00a01b;
+    text-align: center;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    position: relative;
+    transform: translateX(220px);
+    bottom: 10px;
+    border-radius: 20px;
+    border-style: double;
 }
-
-.product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+.header{
+    background: linear-gradient( rgb(213, 1, 255),rgb(240, 190, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 0 0 12px rgb(205, 3, 255),
+      0 0 15px rgb(217, 126, 245),
+       0 0 20px #feedff; */
+        font-size: 50px;
+        text-align: center;
 }
-
-.product h2 {
-    font-size: 18px;
-    margin: 10px 0;
+.shopy:active{
+   background-color: #fc6f23d6;
+   transition: all 0.01s ease 0s;
+   box-shadow: 1px 3px 5px rgb(89, 90, 91);
 }
-
-.product p {
-    margin-bottom: 10px;
-}
-
-.product button {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.product button:hover {
-    background-color: #45a049;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+.shopy:active>a{
+    color: aliceblue;
 }
