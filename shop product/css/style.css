@@ -187,7 +187,12 @@ footer {
    background-color: #fc6f23d6;
    transition: all 0.01s ease 0s;
    box-shadow: 1px 3px 5px rgb(89, 90, 91);
-}
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 20px;  
+   cursor: pointer;
+ 
 .shopy:active>a{
     color: aliceblue;
 }
