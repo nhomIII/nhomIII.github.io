@@ -4,7 +4,7 @@ body, h1, h2, h3, p, ul, li {
     box-sizing: border-box;
 }
 body {
-    background-image: url('https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-dam-may-de-thuong-003.jpg');
+    background-image: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -16,8 +16,8 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: rgb(39, 230, 49);
     text-shadow: 0 0 10px rgb(0, 199, 13),
-                 0 0 18px rgb(12, 189, 50),
-                 0 0 25px rgb(0, 255, 34);
+                 0 0 18px rgb(36, 151, 61),
+                 0 0 25px rgb(5, 117, 20);
     height: 200px;
     position: relative;
     left: 210px;
@@ -122,7 +122,7 @@ body, h1, h2, h3, p, ul, li {
     box-sizing: border-box;
 }
 body {
-    background-image: url('https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-dam-may-de-thuong-003.jpg');
+    background-image: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -177,9 +177,6 @@ footer {
     background: linear-gradient( rgb(213, 1, 255),rgb(240, 190, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* text-shadow: 0 0 12px rgb(205, 3, 255),
-      0 0 15px rgb(217, 126, 245),
-       0 0 20px #feedff; */
         font-size: 50px;
         text-align: center;
 }
