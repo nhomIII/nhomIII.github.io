@@ -1,0 +1,87 @@
+.information {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.title {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+.text {
+    float: left;
+}
+.dv {
+    text-align: center;
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.feed {
+    width: 450px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.info {
+    width: 200px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.press {
+    width: 100%;
+    float: right;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.press:active {
+    background-color: #146d17;
+    color: black;
+}
+.type {
+    float: right;
+    margin-right: 100px;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;     
+    margin: 0px;
+}
+nav {
+    display: flow-root;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.home {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #102b4e;
+    display: none;
+}
+.house {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.house:hover .home {
+    display: block;
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+}
+.end {
+    color: #4CAF50;
+    padding: 10px;
+}
+.mine {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4CAF50;
+}
