@@ -104,7 +104,7 @@ main {
 
 .original-price {
     text-decoration: line-through;
-    color: #070606;
+    color: #ff0000;
     font-style: italic;
     font-size: 22px;
 }
